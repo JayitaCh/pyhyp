@@ -27,7 +27,7 @@ def square_num(a):
     """_summary_
 
     Args:
-        a (_type_): _description_
+        a (float,int): A number
 
     Returns:
         _type_: _description_
