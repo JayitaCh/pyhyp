@@ -9,7 +9,7 @@
 
 # Generate Docstring added in devcontainer.json to automatically get func description
 def add_nums(a,b):
-    """_summary_
+    """Adds two different numbers
 
     Args:
         a (float, int, array): a number/list of numbers
@@ -24,13 +24,13 @@ def add_nums(a,b):
 # Function to calculate the square of the number
 # inputs: float or int or list/ array of float or int
 def square_num(a):
-    """_summary_
+    """Returns the square of a number
 
     Args:
-        a (float,int): A number
+        a (float,int,array): A number/ list of numbers
 
     Returns:
-        _type_: _description_
+        float, int, array: squared
     """
     sq_num = a**2
     return sq_num

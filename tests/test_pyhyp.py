@@ -28,3 +28,24 @@ def test_add_array_nums():
     # Assert
     assert np.allclose(output,exp_out)
     
+def test_square_num():
+    
+    test_a = 25
+        
+    exp_out = 625
+    
+    # Act
+    output = pyhyp.pythag.square_num(test_a)
+
+    # Assert
+    assert output == exp_out
+    
+def test_array_square_num():
+    
+    test_arr_a = np.array([5.5,8,9.1])
+    
+    exp_out = np.array([5.5**2,64,9.1**2])
+    
+    output = pyhyp.pythag.square_num(test_arr_a)
+    
+    assert np.allclose(exp_out,output)
